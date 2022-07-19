@@ -1,0 +1,185 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: gray;
+}
+
+/* headings section */
+
+big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    font-weight:1000;
+}
+
+.section-heading{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.container-fluid{
+    padding:7% 15%;
+}
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title{
+    background-color: rgb(222, 80, 104);
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    /* margin-left: 100px; */
+    position: absolute;
+    right: 25%;
+}
+
+/* features section */
+
+.feature-tile{
+   font-size: 1.5rem; 
+}
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    /* z-index: 1; */
+    position: relative;
+}
+
+.feature-box{
+    
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: rgb(222, 80, 104);
+}
+
+/* testimonial section */
+
+#testimonials{
+    
+    background-color: rgb(222, 80, 104);
+    color: #fff;
+}
+
+.testimonial-text{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    background-color: rgb(222, 80, 104);
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+.price-text{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px) 
+{
+
+    #title{
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+
+#cta{
+    
+    color: #fff;
+   
+    background-color: rgb(222, 80, 104);
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+#footer{
+    
+    background-color: #fff;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
